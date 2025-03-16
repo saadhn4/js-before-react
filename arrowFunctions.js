@@ -45,3 +45,16 @@ const evenNumbers = (arr) => {
 };
 
 console.log(evenNumbers([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
+
+//Write an arrow function called getNames that takes an array of objects containing name properties and returns an array of names.
+const getNames = (arr) => {
+  return arr.map((x) => x.name);
+};
+
+console.log(
+  getNames([
+    { name: "Alice", age: 25 },
+    { name: "Bob", age: 30 },
+    { name: "Charlie", age: 22 },
+  ])
+);
