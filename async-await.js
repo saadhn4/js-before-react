@@ -1,5 +1,4 @@
 import axios from "axios";
-import c from "config";
 /*
 Write an async function checkWeather that fetches data from the following free API:
 
